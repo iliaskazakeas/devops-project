@@ -19,4 +19,4 @@ jobs:
       run: docker build -t devops-flask-app .
 
     - name: Run container
-          run: docker run --rm myapp
+      run: docker run --rm myapp
